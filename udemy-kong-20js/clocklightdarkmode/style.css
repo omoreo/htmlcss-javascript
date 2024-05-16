@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #323232d3;
+    --secondary-color: #ffffff;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.time {
+    font-size: 60px;
+}
+
+.toggle {
+    font-size: 20px;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    cursor: pointer;
+    border-radius: 4px;
+    position: absolute;
+    top: 450px;
+}
+
+html.dark {
+    --primary-color: #ffffff;
+    --secondary-color: #323232d3;
+}
+
+html.dark {
+    background: #323232d3;
+    color: var(--primary-color);
+}

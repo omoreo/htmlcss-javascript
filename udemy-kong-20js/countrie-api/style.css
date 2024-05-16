@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right, #fff, #efefbb);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+    max-width: 1200px;
+}
+
+.countries {
+    background: #eee;
+    border-radius: 10px;
+    box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.countries .img-container {
+    width: 120px;
+    height: 120px;
+    text-align: center;
+}
+
+.countries .img-container img {
+    max-width: 90%;
+    margin-top: 20px;
+}
+
+.countries .info {
+    margin-top: 20px;
+}
+
+.countries:hover {
+    transform: translateY(5px);
+}

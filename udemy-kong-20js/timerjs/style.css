@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+}
+
+.box {
+    width: 45rem;
+    text-align: center;
+}
+
+.time {
+    width: 100%;
+    font-size: 4rem;
+    background: #323232;
+    padding: 4rem 5px;
+    border-radius: 3px;
+    color: whitesmoke;
+    margin-bottom: 3rem;
+}
+
+button {
+    border: none;
+    border-radius: 3px;
+    outline: auto;
+    padding: 5px 1rem;
+    margin: 5px;
+    cursor: pointer;
+    color: white;
+}
+
+.start {
+    background: #323232;
+}
+
+.pause {
+    background: #323232;
+}
+
+.reset {
+    background: #232323;
+}
